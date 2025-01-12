@@ -1,0 +1,49 @@
+{
+  "name": "next-api-gen",
+  "version": "1.0.0",
+  "description": "Generate your own Next.js API route in just a few clicks.",
+  "main": "./index.js",
+  "bin": {
+    "next-api-gen": "./index.js"
+  },
+  "scripts": {
+    "start": "node ./index.js",
+    "build": "tsc",
+    "test": "jest"
+  },
+  "type": "module",
+  "keywords": [
+    "next.js",
+    "API",
+    "CLI",
+    "generator",
+    "typescript"
+  ],
+  "author": {
+    "name": "Itamar Hanan",
+    "email": "itamarhanandev@gmail.com",
+    "url": "https://itamar-hanan.web.app"
+  },
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/MrSuperCraft/next-api-gen.git"
+  },
+  "bugs": {
+    "url": "https://github.com/MrSuperCraft/next-api-gen/issues"
+  },
+  "homepage": "https://github.com/MrSuperCraft/next-api-gen#readme",
+  "dependencies": {
+    "@clack/prompts": "^0.9.1",
+    "picocolors": "^1.1.1",
+    "typescript": "^5.7.3"
+  },
+  "devDependencies": {
+    "@types/jest": "^29.0.3",
+    "jest": "^29.0.3",
+    "@types/node": "^20.5.0"
+  },
+  "engines": {
+    "node": ">=18.0.0"
+  }
+}
